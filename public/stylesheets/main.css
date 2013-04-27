@@ -1,0 +1,216 @@
+body {
+    background: url("../images/logosBG.jpg") repeat;
+    margin: 0;
+    min-width: 900px;
+    font-family: Helvetica, "Nimbus Sans L", "Liberation Sans", Arial, sans-serif;
+    text-align: justify;
+}
+
+header img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+header {
+    top: 0;
+    right: 0;
+    height: 210px;
+    width: 100%;
+    background-color: #27313a;
+}
+
+header .content {
+    height: 210px;
+}
+
+h1 {
+    margin: 0;
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+    color: #cc892b;
+}
+
+.content {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+
+nav {
+    margin: 0;
+    background-color: #12171b;
+    height: 52px;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav li {
+    margin: 0;
+    float: left;
+    border-left: 1px solid #282828;
+    line-height: 52px;
+}
+
+nav li>a {
+    color: #FFF;
+    font: 18px helvetica, sans-serif;
+    text-decoration: none;
+    padding: 0 30px;
+
+}
+
+nav li:last-child {
+    border-right: 1px solid #282828;
+}
+
+nav li:hover {
+    box-shadow: inset 0 0 15px 5px #555;
+}
+
+nav li:hover a {
+    text-shadow: #cc892b 0 0 2em
+}
+
+body>.content {
+    margin-top: 20px;
+}
+
+#mainContent {
+    float: left;
+    width: 640px;
+    margin: 0;
+    padding: 0;
+}
+
+#leftMenu {
+    float: right;
+    width: 230px;
+    margin: 0;
+    padding: 0;
+}
+
+aside, article {
+    border: 5px solid #DDD;
+    background-color: #F5F5F5;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+article{
+    padding: 20px;
+}
+
+aside>h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #cc892b;
+}
+
+aside#sponsors>div {
+    text-align: center;
+}
+aside#sponsors>div>a {
+    display: block;
+    margin: 15px 0;
+}
+aside#latestPosts>div>a{
+    display: block;
+    text-decoration: underline;
+    color: inherit;
+    margin: 10px;
+}
+
+#jetbrains {
+    display: block;
+    background: #fff url(http://www.jetbrains.com/idea/opensource/img/all/banners/idea210x60_white.gif) no-repeat 0 0;
+    border: solid 1px #26409f;
+    padding: 0;
+    text-decoration: none;
+    text-indent: 0;
+    width: 200px;
+    height: 58px
+}
+
+#ideaShortText {
+    margin: 0 0 0 39px;
+    padding: 0;
+    float: left;
+    font-size: 10px;
+    cursor: pointer;
+    background-image: none;
+    border: 0;
+    color: #26409f;
+    font-family: trebuchet ms, arial, sans-serif;
+    font-weight: normal;
+    text-align: left;
+}
+
+#ideaLongText {
+    margin: 33px 0 0 5px;
+    padding: 0 0 2px 0;
+    line-height: 11px;
+    font-size: 9px;
+    word-spacing: -2;
+    cursor: pointer;
+    background-image: none;
+    border: 0;
+    display: block;
+    width: 210px;
+    color: #26409f;
+    font-family: tahoma, arial, sans-serif;
+    font-weight: normal;
+    text-align: left;
+}
+
+article>.mini_calendar {
+    position: relative;
+    background: url("../images/mini_calendar.png") no-repeat;
+    display: inline-block;
+    width: 46px;
+    height: 44px;
+}
+
+article>.mini_calendar>.month, article>.mini_calendar>.day {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 46px;
+    text-align: center;
+}
+
+article>.mini_calendar>.month {
+    top: 2px;
+    font-size: 10px;
+    height: 14px;
+    line-height: 14px;
+    color: white;
+}
+
+article>.mini_calendar>.day {
+    top: 17px;
+    font-size: 20px;
+    color: #cc892b;
+    line-height: 25px;
+}
+
+article>h3 {
+    margin: 0 0 10px 10px;
+    display: inline-block;
+    font-size: 40px;
+    color: #cc892b;
+}
+
+.clear {
+    clear: both;
+}
