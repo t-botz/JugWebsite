@@ -12,8 +12,8 @@ object ApplicationBuild extends Build {
     // Add your project dependencies here,
     jdbc,
     "com.typesafe.slick" %% "slick" % "1.0.0",
-    "com.h2database" % "h2" % "+"
-
+    "com.h2database" % "h2" % "+",
+    "com.typesafe.play" %% "play-slick" % "0.3.2"
   )
 
 
