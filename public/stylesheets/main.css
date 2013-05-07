@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Averia+Gruesa+Libre);
 body {
     background: url("../images/logosBG.jpg") repeat;
     margin: 0;
@@ -31,6 +32,8 @@ h1 {
     bottom: 15px;
     right: 0;
     color: #cc892b;
+    font-size: 40px;
+    font-family: 'Averia Gruesa Libre', cursive;
 }
 
 .content {
@@ -195,6 +198,7 @@ article>.mini_calendar>.month {
     height: 14px;
     line-height: 14px;
     color: white;
+    font-family: 'Averia Gruesa Libre', cursive;
 }
 
 article>.mini_calendar>.day {
@@ -202,6 +206,7 @@ article>.mini_calendar>.day {
     font-size: 20px;
     color: #cc892b;
     line-height: 25px;
+    font-family: 'Averia Gruesa Libre', cursive;
 }
 
 article>h3 {

@@ -4,6 +4,10 @@
 
 # Home page
 GET     /                           com.sjc.website.controllers.Application.index
+GET     /about                      com.sjc.website.controllers.Application.about
+GET     /events                     com.sjc.website.controllers.Application.events
+GET     /members                    com.sjc.website.controllers.Application.members
+GET     /quizz                      com.sjc.website.controllers.Application.quizz
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)

@@ -1,0 +1,62 @@
+@(content: Html)
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Sydney Java Community </title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <script src="http://code.jquery.com/jquery-2.0.0.js" type="text/javascript"></script>
+    <link href="@routes.Assets.at("stylesheets/main.css")" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <div class="content">
+            <img src="@routes.Assets.at("images/SydneyJugLogo.png")">
+            <h1>Sydney Java Community</h1>
+        </div>
+    </header>
+    <nav>
+        <div class="content">
+            <ul>
+                <li> <a href="/"> Home </a> </li>
+                <li> <a href="/about"> About the SJC </a> </li>
+                <li> <a href="/events"> Events </a> </li>
+                <li> <a href="/members"> Members </a> </li>
+                <li> <a href="/quizz"> Quizz </a> </li>
+            </ul>
+            <span class="clear"></span>
+        </div>
+    </nav>
+
+    <div class="content">
+
+        <div id="mainContent">
+            @content
+
+        </div>
+
+
+        <div id="leftMenu">
+            <aside id="sponsors">
+                <h3> Sponsors </h3>
+                <div>
+                    <a id="jetbrains" href="http://www.jetbrains.com/idea/features/javascript.html" alt="Java IDE with advanced HTML/CSS/JS editor for hardcore web-developers" title="Java IDE with advanced HTML/CSS/JS editor for hardcore web-developers">
+                        <span id="ideaShortText"> Developed with </span>
+                        <span id="ideaLongText"> Java IDE with advanced HTML/CSS/JS <br> editor for hardcore web-developers </span>
+                    </a>
+
+                    <a href="http://zeroturnaround.com/" title="ZeroTurnaround"> <img src="@routes.Assets.at("images/logo-zt.png")" alt="ZeroTurnaround - No redeploying, Just Code"> </a>
+                    <a href="http://www.genuitec.com/products.html" title="Genuitec"> <img src="@routes.Assets.at("images/MyEclipseSecure.png")" alt="MyEclipse Secure"> </a>
+                </div>
+            </aside>
+            <aside id="latestPosts">
+                <h3> Latest Posts </h3>
+                <div>
+                    <a href="/"> The SJC is born! </a>
+                </div>
+            </aside>
+        </div>
+
+        <footer class="clear"></footer>
+    </div>
+</body>
+</html>
