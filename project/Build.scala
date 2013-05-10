@@ -13,6 +13,7 @@ object ApplicationBuild extends Build {
     jdbc,
     "com.typesafe.slick" %% "slick" % "1.0.0",
     "com.h2database" % "h2" % "+",
+    "mysql" % "mysql-connector-java" % "5.1.21",
     "com.typesafe.play" %% "play-slick" % "0.3.2"
   )
 
